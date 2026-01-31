@@ -3,24 +3,15 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-}
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --ff: "Inter", sans-serif;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+  --h1: bold 1.125rem/1.4em var(--ff);
+  --h2: bold 1rem/1.4em var(--ff);
+  --p: 1rem/1.4em var(--ff);
+  --p2: 0.875rem/1.4em var(--ff);
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  --gray100: hsl(0,0%,0%);
+  --gray70: hsl(0,0%,30%);
+  --gray0: hsl(0,0%,100%);
 }
