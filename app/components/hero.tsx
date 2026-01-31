@@ -17,7 +17,7 @@ export const Hero = () => {
                 </div>
             </div>
             <video className="h-full w-full object-cover" autoPlay muted playsInline loop>
-                <source src="/sydney-video-2.mp4" type="video/mp4" />
+                <source src="/sydney-video.mp4" type="video/mp4" />
             </video>
         </div>
         
