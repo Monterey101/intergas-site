@@ -39,6 +39,9 @@ export const Navbar = () => {
                 "Careers":"/careers",
             }
         }, {
+            name:"Newsroom", 
+            link:"/newsroom/newsdash"
+        } ,{
             name:"Contact", 
             link:"/contact"
         }

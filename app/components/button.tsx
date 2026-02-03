@@ -1,18 +1,22 @@
 "use client";
 
 import { useState } from "react"
+import { useRouter } from "next/navigation";
 
 type ButtonProps = {
     label: string,
     type: string,
+    link?: string,
 }
 
-export const Button = ({label, type}: ButtonProps) => {
+export const Button = ({label, type, link}: ButtonProps) => {
 
+    const router = useRouter();
     const [isActive, setActive] = useState(false);
 
     return (
         <button 
+            onClick={() => router.push(link ?? "#")}
             onMouseEnter={() => setActive(true)}
             onMouseLeave={() => setActive(false)}
             className={`

@@ -1,4 +1,4 @@
-import { NavLogo } from "./icons";
+import { NavLogo, AustraliaSVG } from "./icons";
 import { Link } from "./link";
 
 export const Footer = () => {
@@ -10,12 +10,13 @@ export const Footer = () => {
                     <a href="/" className="font-bold text-3xl">INTERGAS</a>
                 </div>
                 <span className="text-gray-500 font-bold">Energy Brokerage and Trade Facilitation</span>
-                <div className="flex gap-3">
+                <div className="flex gap-3 items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                         <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
                     </svg>
                     Sydney, NSW, Australia
+                    <AustraliaSVG className="w-8 h-8 text-white" />
                 </div>
                 <span className="text-gray-500">ABN 98 691 680 725</span>
                 <span className="text-gray-500">Australian Securities and Investments Commission (ASIC) Registered & Regulated</span>

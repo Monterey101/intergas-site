@@ -8,13 +8,29 @@ export default function OILPage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
                 <img src="/oil.jpg" />
                 <div className="p-5 sm:p-10 text-lg">
-                    <p>Crude oil is a naturally occurring, unrefined petroleum product composed of hydrocarbon deposits and other organic materials. It is a fossil fuel that forms when large quantities of dead organisms, mainly zooplankton and phytoplankton, are buried underneath layers of sediment.</p>
+                    <p>Crude oil is a naturally occurring, unrefined fossil fuel composed of hydrocarbons formed over millions of years beneath the Earth’s surface.</p>
                     <br />
-                    <p>Crude oil is extracted from the earth through drilling and is then refined into various products such as gasoline, diesel fuel, jet fuel, and other petrochemicals. It is one of the most important sources of energy in the world and is used to power transportation, heat homes, and generate electricity.</p>
+                    <p>It serves as the foundational feedstock of the global energy system, enabling the production of fuels, petrochemicals and industrial materials essential to modern economies.</p>
                     <br />
-                    <p>The price of crude oil fluctuates based on supply and demand, geopolitical events, and economic factors. It is traded globally on commodity exchanges and is a key indicator of the health of the global economy.</p>
+                    <p>Crude oil remains one of the most strategically important commodities in the world, shaping global trade flows and geopolitical relationships.</p>
+                </div>
+                <div className="p-5 sm:p-10 text-lg">
+                    <p>Crude oil is extracted through drilling operations and transported via pipelines, storage terminals and large ocean-going tankers across major global trade routes.</p>
                     <br />
-                    <a href="/contact"><Button label="Let's talk" type="light"/></a>
+                    <p>These logistics networks represent some of the most complex and capital-intensive infrastructure systems ever constructed.</p>
+                    <br />
+                    <p>They connect producing regions with refining and consumption centres, enabling continuous energy supply at a global scale.</p>
+                </div>
+                <img src="/oil-tanker.jpg" />
+                <img src="/refinery.jpg" />
+                <div className="p-5 sm:p-10 text-lg">
+                    <p>Intergas operates within the global crude oil trading ecosystem, facilitating commercial relationships between producers, refiners and institutional buyers.</p>
+                    <br />
+                    <p>Through strategic introductions and transaction structuring, Intergas enables the execution of high-value crude supply agreements across international markets.</p>
+                    <br />
+                    <p>By aligning counterparties and managing contractual frameworks, Intergas supports efficient and secure crude oil trade flows worldwide.</p>
+                    <br />
+                    <Button link="/contact" label="Let's talk" type="light"/>
                 </div>
             </div>
         </main>
