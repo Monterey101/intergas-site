@@ -5,8 +5,11 @@ import { Navbar } from "@/app/components/navbar";
 import { Footer } from "./components/footer";
 
 export const metadata: Metadata = {
-  title: "Custom",
-  description: "Everything myself",
+  title: "Intergas",
+  description: "Energy Brokerage and Trade Facilitation",
+  icons: {
+    icon: "/Intergas_Web_Icon.png",
+  },
 };
 
 export default function RootLayout({
