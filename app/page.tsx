@@ -3,6 +3,7 @@
 import { Hero } from "./components/hero"
 import { Link } from "./components/link"
 import { News } from "./components/news"
+import { Network } from "./components/network"
 import { useRouter } from "next/navigation";
 
 export default function Home() {
@@ -31,6 +32,7 @@ export default function Home() {
           ))}
           </div>
           <News />
+          <Network />
       </main>
     </div>
   );
