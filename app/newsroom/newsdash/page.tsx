@@ -9,9 +9,10 @@ export default function NewsdashPage() {
     const [search, setSearch] = useState("");
 
     const articles = [
-        { date: "24/3/2025 - NEW", title: "Intergas gets backing from major player Pearl Energy", link: "/newsroom/pearl-support" },
-        { date: "2/2/2025", title: "Intergas set to debut in 2026 Australian Domestic Gas Outlook conference", link: "/newsroom/debut-adgo" },
-        { date: "5/12/2025", title: "Intergas's debut supply contract offically in negotiation phase", link: "/newsroom/debut-supply" },
+        { date: "2/4/2026 - NEW", title: "Intergas' review of the 2026 Australian Domestic Gas Outlook (ADGO) Conference", link: "/newsroom/adgo-2026" },
+        { date: "24/3/2026", title: "Intergas gets backing from major player Pearl Energy", link: "/newsroom/pearl-support" },
+        { date: "2/2/2026", title: "Intergas set to debut in 2026 Australian Domestic Gas Outlook conference", link: "/newsroom/debut-adgo" },
+        { date: "5/12/2025", title: "Intergas' debut supply contract offically in negotiation phase", link: "/newsroom/debut-supply" },
         { date: "27/09/2025", title: "Intergas given green light by PPG to include LPG & Crude Oil in brokerage operations", link: "/newsroom/ppg-lpg-oil" },
         { date: "20/08/2025", title: "Intergas completes technical assessment of PPG's LNG product for Australian market", link: "/newsroom/ppg-lng-technical" },
         { date: "21/07/2025", title: "Intergas enters relations for energy brokerage with supplier PPG South East Energy LLC", link: "/newsroom/ppg-enter-relations" },

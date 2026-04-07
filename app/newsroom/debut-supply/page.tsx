@@ -3,7 +3,7 @@ import { PageTitle } from "../../components/pagetitle"
 export default function DebutSupplyArticle() {
     return (
         <main className="">
-            <PageTitle title="Intergas's debut supply contract offically in negotiation phase" />
+            <PageTitle title=" debut supply contract offically in negotiation phase" />
             <div className="grid grid-cols-1 xl:grid-cols-2">
                 {/* <img src="/sydney.jpg" /> */}
                 <div className="p-5 sm:p-10 text-lg">
