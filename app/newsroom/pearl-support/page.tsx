@@ -7,7 +7,7 @@ export default function PearlSupport() {
             <div className="grid grid-cols-1 xl:grid-cols-2">
                 {/* <img src="/sydney.jpg" /> */}
                 <div className="p-5 sm:p-10 text-lg">
-                    <p className="text-gray-500">24 March 2026 - NEW</p>
+                    <p className="text-gray-500">24 March 2026</p>
                     <br />
                     <div className="h-[1px] w-full bg-black" />
                     <br />
