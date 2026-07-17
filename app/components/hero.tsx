@@ -6,8 +6,8 @@ export const Hero = () => {
         <div className="relative h-screen w-full">
             <div className="absolute inset-0 flex flex-col items:center lg:items-start justify-center text-white font-bold">
                 <div className="flex flex-col gap-5 lg:gap-10 bg-black p-10 m-5">
-                    <div className="flex justify-center items-center gap-6 text-6xl lg:text-9xl">
-                        <HeroLogo className="w-[60px] h-[60px] lg:w-[120px] lg:h-[120px]" />
+                    <div className="flex justify-center items-center gap-0 sm:gap-6 text-6xl lg:text-9xl">
+                        <HeroLogo className="w-[0px] h-[0px] sm:w-[60px] sm:h-[60px] lg:w-[120px] lg:h-[120px] bg-blue-500" />
                         INTERGAS
                     </div>
                     <div className="flex flex-col gap-10 lg:flex-row items-center justify-between text-center">
